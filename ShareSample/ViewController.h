@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+-(IBAction)click:(id)sender;
 
 @end
 

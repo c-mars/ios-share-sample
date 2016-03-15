@@ -24,4 +24,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)click:(id)sender{
+    id img=[UIImage new];
+    id ctrl=[[UIActivityViewController alloc] initWithActivityItems:[NSArray arrayWithObject:img] applicationActivities:nil];
+    [self presentViewController:ctrl animated:true completion:nil];
+}
 @end
